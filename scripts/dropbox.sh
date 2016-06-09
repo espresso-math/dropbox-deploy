@@ -5,4 +5,5 @@ set -e # halt script on error
 wget https://www.dropbox.com/sh/s7krs6j8jyarvzg/AADSMhOj4OrFSjhj6iUXzIIka\?dl\=1 -O download.zip
 
 # unzip and cd
-unzip download.zip
+unzip download.zip -d download
+cd download

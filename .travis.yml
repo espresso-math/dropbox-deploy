@@ -6,7 +6,6 @@ rvm:
 install: 
    - chmod +x ./scripts/dropbox.sh
    - ./scripts/dropbox.sh
-   - bundle install
    - rake
    - npm install --save-dev surge
 
