@@ -8,3 +8,5 @@ umask 644
 unzip download.zip -d download
 
 cd download
+
+ls -l
