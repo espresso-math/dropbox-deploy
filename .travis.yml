@@ -1,6 +1,7 @@
 language: ruby
 rvm:
 - 2.1
+sudo: required
 
 # install jekyll from gemfile
 install: 

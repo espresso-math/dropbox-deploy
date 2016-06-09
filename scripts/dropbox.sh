@@ -4,4 +4,4 @@
 wget https://www.dropbox.com/sh/s7krs6j8jyarvzg/AADSMhOj4OrFSjhj6iUXzIIka?dl=1 -O download.zip
 
 # unzip and cd
-unzip download.zip
+sudo unzip download.zip
