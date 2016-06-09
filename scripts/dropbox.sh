@@ -9,3 +9,12 @@ unzip download.zip -d download
 cd download
 
 ls -l
+
+bundle install
+
+
+# run jekyll
+jekyll build
+
+# deploy
+surge _site nup.pii.at
