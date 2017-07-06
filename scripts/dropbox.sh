@@ -2,8 +2,9 @@
 set -e # halt script on error
 
 # Get file from dropbox
-wget https://www.dropbox.com/sh/s7krs6j8jyarvzg/AADSMhOj4OrFSjhj6iUXzIIka?dl=1 -O download.zip
+git clone -b kitty https://jamespowell:${BUCKET_KEY}@bitbucket.org/jamespowell/betelgeuse.git
+cd betelgeuse
 
 # unzip and cd
-jar xvf download.zip
-rm download.zip
+#jar xvf download.zip
+#rm download.zip
