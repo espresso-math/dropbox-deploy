@@ -9,13 +9,13 @@ install:
    - ./scripts/dropbox.sh
    - bundle install
    - rake
-   - npm install --save-dev surge
 
 # build site
 scripts: true
 
 # deploy to surge
 after_success: 
+   - npm install --save-dev surge
    - chmod +x ./scripts/deploy.sh
    - ./scripts/deploy.sh
 
